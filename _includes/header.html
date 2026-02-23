@@ -15,7 +15,7 @@
         <!-- NAVEGACIÓN -->
     <nav class="nav-bar">
         <ul>
-            <li><a href="{{ site.baseurl }}/" class="active">Inicio</a></li>
-            <li><a href="{{ site.baseurl }}/pages/contact/">Contacto</a></li>
+            <li><a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>Inicio</a></li>
+            <li><a href="{{ site.baseurl }}/pages/contact/" {% if page.url == "/pages/contact/" %}class="active"{% endif %}>Contacto</a></li>
         </ul>
     </nav>
