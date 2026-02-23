@@ -16,7 +16,7 @@ body::before {
     height: 100%;
     background: url('img/en-construccion.png') center center no-repeat;
     background-size: cover; /* ajusta la imagen sin deformarla */
-    opacity: 0.15; /* casi transparente */
+    opacity: 0.12; /* casi transparente */
     pointer-events: none; /* no interfiere con clicks */
     z-index: 0;
 }
